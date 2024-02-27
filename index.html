@@ -3,17 +3,54 @@
         <style>
             body, p, div, h1, h2, h3, h4, h5 {
                 font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                letter-spacing: 0.03rem;
+                color: rgba(0, 0, 0, 0.7)
+            }
+
+            h1, h2, h3 {
+                letter-spacing: 0.07rem;
+            }
+
+            .center {
                 text-align: center;
             }
+
+            body {
+                padding-top: 10%;
+            }
+
+            .flexcontainer {
+                display: flex;
+                align-items: center;
+                width: 100%;
+            }
+
+
         </style>
     </head>
 
 
     <body>
-        <h1>skyrim.lol</h1>
-        <h3>Coming soon...</h3>
+        <div class="center">
+            <h1>skyrim.lol</h1>
+            <h3>Coming soon...</h3>
+        </div>
 
-        <h4>Get a free @skyrim.lol email address.. coming soon!</h4>
+
+ 
+        <div style="display: flex; align-items: center; flex-direction: column; width: 500px; margin: 0 auto; margin-top: 64px;">
+        
+            <div style="text-transform: uppercase; font-size: 70%; margin-bottom: 24px; width: 100%;">In the mean time.. @skyrim.lol email addresses are available!</div>
+        
+            <div class="flexcontainer">
+            
+                <div style="text-transform: uppercase; font-size: 70%;">10MB Mailbox: Free</div>
+                <div style="margin-left: 32px; text-transform: uppercase; font-size: 70%;">Mail Redirect: £4/year</div>
+                <div style="margin-left: 32px; text-transform: uppercase; font-size: 70%;">1GB Mailbox: £6/year</div>
+            </div>
+        </div>
+
+
     </body>
 
 </html>
